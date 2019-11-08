@@ -8,10 +8,5 @@ iphone = {
         'chip' : 'A13 Bionic chip - Third‑generation Neural Engine'
 }
 
-print(iphone['model_name'])
-print(iphone['colors_available'])
-print(iphone['capacity'])
-print(iphone['display'])
-print(iphone['screen_resolution'])
-print(iphone['water_resistant'])
-print(iphone['chip'])
+for x in iphone:
+    print(x)
